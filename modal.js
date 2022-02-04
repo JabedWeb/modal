@@ -22,6 +22,12 @@ edit.addEventListener('click',function(){
 closebutton.addEventListener('click',function(){
     modal_alart.style.display='flex';
 })
+wrap.addEventListener('click',function(e){
+
+    if(e.target==this){
+        wrap.classList.remove('active');
+    }
+})
 save.addEventListener('click',function(){
     wrap.classList.remove('active');
 })
